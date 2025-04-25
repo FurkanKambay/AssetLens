@@ -14,7 +14,7 @@ namespace AssetLens
 		internal static readonly string Manifest =
 			Application.dataPath.Replace("Assets", "Packages/manifest.json");
 
-		internal const string SettingDirectory = "Assets/Editor Default Resources";
+		internal const string SettingDirectory = "Assets/Settings/Editor";
 
 		internal const string UIToolkitDir = PackageDirectory + "/Editor/UI Toolkit/";
 		internal const string LayoutDirectory = UIToolkitDir + "Layouts/";
