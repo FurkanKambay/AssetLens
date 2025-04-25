@@ -21,7 +21,7 @@ namespace AssetLens
 		internal const string StylesheetDirectory = UIToolkitDir + "Stylesheets/";
 		internal const string ComponentDirectory = UIToolkitDir + "Components/";
 		
-		internal const string LocalStylesheetDirectory = SettingDirectory + "/Stylesheets/";
+		internal const string LocalStylesheetDirectory = "Assets/Settings/Editor/Stylesheets/";
 
 #if DEBUG_ASSETLENS
 		[MenuItem("Tools/Asset Lens_DEV/Open/Cache Directory")]

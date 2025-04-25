@@ -29,7 +29,7 @@ namespace AssetLens.Reference
 			var fullPath = Path.GetFullPath(dir);
 			var files = Directory.GetFiles(fullPath);
 
-			var root = "Assets/Editor Default Resources/Stylesheets";
+			var root = FileSystem.LocalStylesheetDirectory;
 			if (!Directory.Exists(root))
 			{
 				Directory.CreateDirectory(root);
